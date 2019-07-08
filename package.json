@@ -1,0 +1,28 @@
+{
+  "name": "zvwebsite",
+  "version": "1.0.0",
+  "homepage": "https://zvvysotskaya.github.io/zvwebsite",
+  "description": "this is a personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zvvysotskaya/zvwebsite.git"
+  },
+  "keywords": [
+    "zhanna"
+  ],
+  "author": "Zhanna Vysotskaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zvvysotskaya/zvwebsite/issues"
+  },
+  "homepage": "https://github.com/zvvysotskaya/zvwebsite#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

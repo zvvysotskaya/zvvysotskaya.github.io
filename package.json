@@ -1,11 +1,12 @@
 {
   "name": "zvwebsite",
   "version": "1.0.0",
-  "homepage": "https://zvvysotskaya.github.io/zvwebsite",
+
   "description": "this is a personal website",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -21,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/zvvysotskaya/zvwebsite/issues"
   },
-  "homepage": "https://github.com/zvvysotskaya/zvwebsite#readme",
+  "homepage": "https://github.com/zvvysotskaya/zvwebsite#index.html",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }

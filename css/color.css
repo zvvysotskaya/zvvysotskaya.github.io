@@ -20,7 +20,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
     margin: 0;
     margin-top: -23%;
 }
-
+.socials {
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    top: 1%;
+}
+ .myPhoto  {
+    width: 25%;
+    height: 25%;
+}
+.socials ul {
+    list-style: none;
+}
+.socials ul li {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    color:  black;
+}
+.socials ul li a {
+    color:  #000080;
+}
+.socials ul li a:hover {
+    color:  #8080ff;
+}
 h1{
     color: red;
 }

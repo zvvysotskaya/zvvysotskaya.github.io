@@ -20,7 +20,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
     width: auto;
     margin: 0;
     margin-top: -23%;
+}
+.navbar {
+    position: fixed;
+    top: 1%;
+    z-index: 100;
 
+}
+
+.nav-link {
+    color: #990000;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.nav-link a {
 
 }
 h1{

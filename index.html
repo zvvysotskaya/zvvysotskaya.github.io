@@ -1,54 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <title>Zhanna</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/color.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquerybootstrap.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <header>
     <div class="embed-responsive embed-responsive-16by9">
         <video class="embed-responsive-item  d-lg-block" src="video/waves.mp4" autoplay muted loop></video>
     </div>
-    <!-- photo is left side and social media are  right side-->
-    <div class="container-fluid  socials">
-            <div class="row">
-                <div class="col-6">
-                    <img src="images/myPhoto.png" class="myPhoto rounded-circle d-flex img-fluid float-left img-thumbnail mt-2 mt-md-3" alt="my photo">
-                </div>
-                    <div class="col-6">
-                        <ul class="">
-                            <li><a href="https://github.com/zvvysotskaya" class="github d-inline-block float-right mr-2 mr-md-3 mt-2 mt-md-3">
-                                    <i class="fa fa-github fa-lg" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/zhanna-vysotskaya-47810315b/" class="linkedin d-inline-block float-right mr-2 mr-md-3 mt-2 mt-md-3 ">
-                                    <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-    </div>
-
-<!--some sort of a navigation-->
 <div class="container">
-    <div class="col row justify-content-center mt-3">
-            <button type="button" class="btn btn-lg bg-info" id="b_home">Home</button>
-            <button type="button" class="btn btn-lg bg-info" id="b_skills">Skills</button>
-            <button type="button" class="btn btn-lg bg-info" id="b_projects">Projects</button>
-            <button type="button" class="btn btn-lg bg-info " id="b_contact">Contact</button>
+        <div class="divPhoto mr-1">
+            <img src="images/myPhoto.png" class="myPhoto rounded-circle img-fluid  img-thumbnail mt-2 mt-md-3" alt="my photo">
+        </div>
+        <div class="divLinkedin mr-5 d-flex float-right">
+            <a href="https://www.linkedin.com/in/zhanna-vysotskaya-47810315b/" class="linkedin mr-5 mr-md-5 mt-2 mt-md-3 ">
+                        <i class="fa fa-linkedin fa-2x"></i>
+            </a>
+        </div>
+        <div class="divGithub ml-5 mr-3 d-flex float-right">
+            <a href="https://github.com/zvvysotskaya" class="github ml-1 ml-md-5 mt-2 mt-md-3">
+                        <i class="fa fa-github fa-2x"></i>
+                    </a>
+        </div>
+</div><!--.container-->
+    </header>
+<!--some sort of a navigation-->
+    <div class="container">
+        <div class="row justify-content-center mt-3 navBox">
+                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_home">Home</button>
+                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_skills">Skills</button>
+                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_projects">Projects</button>
+                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_contact">Contact</button>
+
+        </div>
     </div>
-</div>
 
 
 <!--main pages -->
 <div class="" id="page_content">
-    <div class="container mb-5 mt-5">
-        <div class="row bg-white">
+    <div class="container ">
+        <div class="row bg-white p-3 mb-3 mt-5">
             <div class="col">
                 <h1 class="text-center text-info font-weight-bold">Hello!</h1>
                 <h2 class="text-center">I am Zhanna</h2>
@@ -57,15 +57,15 @@
         </div><!-- .row -->
     </div><!-- .container -->
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 p-5">
+        <div class="row p-3">
+            <div class="col-md-6  bg-white">
                 <h2 class="text-center text-info mb-4 font-weight-bold ">Introduction</h2>
                 <p>
                     My passion is coding. I love challenge and constantly looking for how to develop
                      a high quality code that is thoroughly tested, easy to read, and simpler to maintain.
                 </p>
             </div><!-- .col-md-6 -->
-            <div class="col-md-6 p-5">
+            <div class="col-md-6  bg-white">
                 <h2 class="text-center text-info mb-4 font-weight-bold">Programming Interest</h2>
                 <ul class="">
                     <li>
@@ -77,8 +77,11 @@
         </div><!-- .row -->
     </div><!-- .container -->
     <div class="container">
-        <p class="text-center mt-5">I have been living in Tampa Bay Area, Florida,  USA</p>
-        <p class="text-center">There are some pictures of this wonderful area</p>
+        <p class="text-center mt-5"></p><!--Add residence and pictures-->
+        <p class="text-center"></p>
+        <div class="">
+            <button type="button" name="button">Click</button>
+        </div>
     </div>
     <div class="container mt-5">
         <div class="container">
@@ -86,15 +89,23 @@
             </div><!-- .row -->
         </div><!-- .container -->
     </div><!-- .container -->
+    <div class="container">
+        <div class="row justify-content-center">
+                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_home">Home</button>
+                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_skills">Skills</button>
+                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_projects">Projects</button>
+                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_contact">Contact</button>
+
+        </div>
+    </div>
 </div>
 
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="./js/scripts.js">
-   </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.js"></script>
+   <script src="./js/scripts.js"></script>
+
+
 
 </body>
 </html>

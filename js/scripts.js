@@ -3,8 +3,7 @@ $(function(){
         $('#page_content').html('<h1>My Skills</h1>');
     });
     $('#b_home').click(function(){
-
-    $("#page_content").html(
+    $('#page_content').html(
 
         '<div class="container mb-5 mt-5">'+
             '<div class="row">'+

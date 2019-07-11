@@ -14,37 +14,38 @@
 </head>
 <body>
     <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-8 divPhoto mr-1">
+                    <img src="images/myPhoto.png" class="myPhoto rounded-circle img-fluid  img-thumbnail my-2 my-md-2" alt="my photo">
+                </div>
+                <div class="col-1 divLinkedin mr-2 d-flex float-right">
+                    <a href="https://www.linkedin.com/in/zhanna-vysotskaya-47810315b/" class="linkedin mr-0 mr-md-5 mt-md-3 ">
+                                <i class="fa fa-linkedin fa-2x"></i>
+                    </a>
+                </div>
+                <div class="col-1 divGithub ml-4 mr-3 d-flex float-right">
+                    <a href="https://github.com/zvvysotskaya" class="github ml-0 ml-md-5  mt-md-3">
+                                <i class="fa fa-github fa-2x"></i>
+                            </a>
+                </div>
+            </div><!--.row-->
+        </div><!--.container-->
     <div class="embed-responsive embed-responsive-16by9">
         <video class="embed-responsive-item  d-lg-block" src="video/waves.mp4" autoplay muted loop></video>
     </div>
-<div class="container">
-        <div class="divPhoto mr-1">
-            <img src="images/myPhoto.png" class="myPhoto rounded-circle img-fluid  img-thumbnail mt-2 mt-md-3" alt="my photo">
-        </div>
-        <div class="divLinkedin mr-5 d-flex float-right">
-            <a href="https://www.linkedin.com/in/zhanna-vysotskaya-47810315b/" class="linkedin mr-5 mr-md-5 mt-2 mt-md-3 ">
-                        <i class="fa fa-linkedin fa-2x"></i>
-            </a>
-        </div>
-        <div class="divGithub ml-5 mr-3 d-flex float-right">
-            <a href="https://github.com/zvvysotskaya" class="github ml-1 ml-md-5 mt-2 mt-md-3">
-                        <i class="fa fa-github fa-2x"></i>
-                    </a>
-        </div>
-</div><!--.container-->
+
     </header>
 <!--some sort of a navigation-->
     <div class="container">
         <div class="row justify-content-center mt-3 navBox">
                 <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_home">Home</button>
                 <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_skills">Skills</button>
+                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_education">Education</button>
                 <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_projects">Projects</button>
                 <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_contact">Contact</button>
-
         </div>
     </div>
-
-
 <!--main pages -->
 <div class="" id="page_content">
     <div class="container ">
@@ -52,7 +53,8 @@
             <div class="col">
                 <h1 class="text-center text-info font-weight-bold">Hello!</h1>
                 <h2 class="text-center">I am Zhanna</h2>
-                <h5 class="text-center text-dark mb-5">Software / Web developer</h5>
+                <h5 class="text-center text-dark mb-3">Software / Web developer</h5>
+                <h4 class="text-center ">Sorry, the site undergos changes</h4>
             </div>
         </div><!-- .row -->
     </div><!-- .container -->
@@ -76,35 +78,14 @@
             </div><!-- .col-md-6 -->
         </div><!-- .row -->
     </div><!-- .container -->
-    <div class="container">
-        <p class="text-center mt-5"></p><!--Add residence and pictures-->
-        <p class="text-center"></p>
-        <div class="">
-            <button type="button" name="button">Click</button>
-        </div>
-    </div>
-    <div class="container mt-5">
-        <div class="container">
-            <div class="row">
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .container -->
-    <div class="container">
-        <div class="row justify-content-center">
-                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_home">Home</button>
-                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_skills">Skills</button>
-                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_projects">Projects</button>
-                <button type="button" class="btn btn-lg bg-info mt-3 mt-md-0" id="b_contact">Contact</button>
+</div><!-- the end of .page_content-->
 
-        </div>
-    </div>
-</div>
-
-   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <!-- jQuery-->
 
    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.js"></script>
-   <script src="./js/scripts.js"></script>
-
+  <script src="./js/contentPages/home.js"></script>
+   <script src="./js/contentPages/education.js"></script>
+   <script src="./js/contentPages/skills.js"></script>
 
 
 </body>

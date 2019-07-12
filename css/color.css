@@ -18,13 +18,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
     background-size: cover;
     width: auto;
     margin: 0;
-    margin-top: -25%;
+    margin-top: -26%;
 }
 
  .myPhoto {
     position:relative;
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: 15%;
 }
 .github, .linkedin {
     position: relative;

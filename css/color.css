@@ -34,7 +34,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
     top: 1%;
     color:  #000066;
 }
-
+.github:hover {
+    color: #ffffff;
+}
+.linkedin:hover {
+    color: #ffffff;
+}
 .divPhoto, .divGithub, .divLinkedin {
     position: absolute;
     z-index: 100;

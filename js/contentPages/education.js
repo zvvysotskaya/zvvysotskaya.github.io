@@ -2,7 +2,7 @@ $(function(){
     $('#b_education').click(function(){
         $('#page_content').html(
             '<div class="container-fluid">'+
-                '<h1 class="text-center text-info font-weight-bold pt-md-5 mt-md-5 mt-3">'+
+                '<h1 class="text-center text-info font-weight-bold pt-md-3 mt-md-5 mt-3">'+
                     'Education, Certification, and Professional Development'+
                 '</h1>'+
             '</div><!--.container-fluid-->'+

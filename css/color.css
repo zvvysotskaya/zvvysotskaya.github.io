@@ -50,6 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
     border-radius: 0;
 }
 /*pages content */
+/*Skills*/
 .dbs li {
     display: inline-block;
 }
@@ -57,6 +58,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
     content: '|';
     margin: 15px;
 }
-h1{
-    color: red;
+.ide li {
+    display: inline-block;
+}
+.ide li::before {
+    content: '|';
+    margin: 15px;
+}
+.ide li:first-child::before {
+    display: none;
 }

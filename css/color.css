@@ -1,5 +1,5 @@
 body {
-
+    background-color: #e6f2ff;
 }
 .embed-responsive::after {
     position: absolute;
@@ -46,6 +46,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
     top: 1%;
     display: inline-block;
 }
+@media(max-width:768px) {
+    .divGithub, .divLinkedin {
+        font-size: .6rem;
+
+    }
+}
 .navBox .bg-info {
     border-radius: 0;
 }
@@ -67,4 +73,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
 }
 .ide li:first-child::before {
     display: none;
+}
+/*projects*/
+.project_info {
+    height: 26rem;
+}
+@media(max-width:768px) {
+    .project_info {
+        height: 35rem;
+    }
+}
+@media(max-width:992px) {
+    .project_info {
+        height: 27rem;
+    }
+}
+
+/*footer*/
+footer p {
+    font-size: .8rem;
+    font-style: italic;
+    padding: 1.2rem;
 }

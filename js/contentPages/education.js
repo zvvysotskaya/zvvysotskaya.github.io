@@ -8,7 +8,7 @@ $(function(){
             '</div><!--.container-fluid-->'+
             '<article>'+
             '<div class="container">'+
-                '<div class="row">'+
+                '<div class="row mb-md-5 mb-2">'+
                     '<div class="col-md-2"></div>'+
                     '<div class="col-md-8">'+
                         '<h4 class="font-weight-bold mt-3 mt-md-5 p-3">EDUCATION</h4>'+

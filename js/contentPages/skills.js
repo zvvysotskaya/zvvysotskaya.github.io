@@ -15,7 +15,7 @@ $(function(){
             '<div class="dbs d-flex justify-content-center mb-md-5 mb-1">'+
             '<ul class="list-inline">'+
             '<li class="text-info">mySQL</li>'+
-            '<li class=" text-info"> SQLite</li>'+
+            '<li class="text-info"> SQLite</li>'+
             '</ul>'+
             '</div>'+
             '<div class="row">'+
@@ -62,9 +62,9 @@ $(function(){
             '<div class="ide d-flex justify-content-center">'+
             '<ul class="list-inline">'+
             '<li class="text-info mb-md-5 mb-1">XAMPP</li>'+
-            '<li class=" text-info">Laravel Valet</li>'+
-            '<li class=" text-info">Node.js</li>'+
-            '<li class=" text-info">React</li>'+
+            '<li class="text-info">Laravel Valet</li>'+
+            '<li class="text-info">Node.js</li>'+
+            '<li class="text-info">React</li>'+
             '</ul>'+
             '</div><!--.container-->'+
             '</article>'

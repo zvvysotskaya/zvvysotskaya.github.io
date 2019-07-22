@@ -6,9 +6,9 @@ $(function(){
                     'Contact'+
                 '</h1>'+
             '</div><!--.container-fluid-->'+
-            '<article>'+
+            '<article class="contact">'+
             '<div class="container">'+
-            '<div class="row">'+
+            '<div class="row mb-md-5 mb-2">'+
             '<div class="col-12 col-md-4 col-lg-4 mb-4">'+
                 '<p class="text-center font-weight-bold">Location:</p>'+
                 '<p class="text-center">Tampa Bay Area, Florida, USA</p>'+
@@ -30,8 +30,6 @@ $(function(){
                                 '<i class="fa fa-github fa-2x"></i>'+
                             '</a>'+
                             '</p>'+
-
-
             '</div>'+
             '</div><!--.row-->'+
             '</div><!--.container-->'+

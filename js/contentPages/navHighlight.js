@@ -36,4 +36,7 @@ $(function(){
             $('#b_education').addClass('bg-info');
             $('#b_projects').addClass('bg-info');
         });
+        var date1 = new Date();
+        var year = date1.getFullYear();
+        $('#footer_year').html(year);
         });

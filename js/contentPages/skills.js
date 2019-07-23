@@ -20,17 +20,17 @@ $(function(){
                     '<div class="row">'+
                         '<div class="col-md-6 mb-md-5 mb-2">'+
                             '<div class="card">'+
-                                '<div class="card body p-2 p-md-3">'+
+                                '<div class="card body p-2">'+
                                     '<img src="images/mysql.jpg" alt="phpmyadmin" class="d-block img-fluid img-thumbnail d-block mx-auto">'+
-                                    '<p class="py-3">I am using phpMyAdmin software tool to run mySql over the web.</p>'+
+                                    '<p class="py-3 text-center">I am using phpMyAdmin software tool to run mySql over the web.</p>'+
                                 '</div>'+
                             '</div>'+
                         '</div><!--.col-md-6-->'+
                         '<div class="col-md-6 mb-2">'+
                             '<div class="card">'+
-                                '<div class="card body p-2 p-md-3">'+
+                                '<div class="card body p-2">'+
                                     '<img src="images/sqlite.jpg" alt="the command prompt" class="d-block img-fluid img-thumbnail d-block mx-auto">'+
-                                    '<p class="py-3">To run the SQLite shell, I am using the command prompt.</p>'+
+                                    '<p class="py-3 text-center">To run the SQLite shell, I am using the command prompt.</p>'+
                                 '</div>'+
                             '</div>'+
                         '</div><!--.col-md-6-->'+

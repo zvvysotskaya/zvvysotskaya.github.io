@@ -1,5 +1,4 @@
 $(function(){
-
     $('#b_home').click(function(){
     $('#page_content').html(
         '<div class="container">'+

@@ -41,8 +41,6 @@ $(function(){
                 '</div><!--.row-->'+
             '</div><!--.container-->'+
             '</article>'
-
-
     );//the enf of HTML method
 });//the end of the click event
 });// the end of document.ready event handler

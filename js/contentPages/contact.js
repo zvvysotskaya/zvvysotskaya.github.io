@@ -8,34 +8,29 @@ $(function(){
             '</div><!--.container-fluid-->'+
             '<article class="contact">'+
             '<div class="container">'+
-            '<div class="row mb-md-5 mb-2">'+
-            '<div class="col-12 col-md-4 col-lg-4 mb-4">'+
-                '<p class="text-center font-weight-bold">Location:</p>'+
-                '<p class="text-center">Tampa Bay Area, Florida, USA</p>'+
-            '</div>'+
-            '<div class="col-12 col-md-4 col-lg-4 mb-4">'+
-                '<p class="text-center font-weight-bold">Email:</p>'+
-                '<p class="text-center"><a href="mailto:zhannavyvy@gmail.com">zhannavyvy@gmail.com</a></p>'+
-            '</div>'+
-            '<div class="col-12 col-md-4 col-lg-4 mb-4">'+
-                '<p class="text-center font-weight-bold">Social Media:</p>'+
+                '<div class="row mb-md-5 mb-2">'+
+                '<div class="col-12 col-md-4 col-lg-4 mb-4">'+
+                    '<p class="text-center font-weight-bold">Location:</p>'+
+                    '<p class="text-center">Tampa Bay Area, Florida, USA</p>'+
+                '</div>'+
+                '<div class="col-12 col-md-4 col-lg-4 mb-4">'+
+                    '<p class="text-center font-weight-bold">Email:</p>'+
+                    '<p class="text-center"><a href="mailto:zhannavyvy@gmail.com">zhannavyvy@gmail.com</a></p>'+
+                '</div>'+
+                '<div class="col-12 col-md-4 col-lg-4 mb-4">'+
+                    '<p class="text-center font-weight-bold">Social Media:</p>'+
 
-                '<p class="text-center">'+
-                    '<a href="https://www.linkedin.com/in/zhanna-vysotskaya-47810315b/" class="linkedin mr-0 mr-md-2 mt-md-3 ">'+
-                                '<i class="fa fa-linkedin fa-2x"></i>'+
-                    '</a>'+
-
-
-                    '<a href="https://github.com/zvvysotskaya" class="github ml-0 ml-md-2  mt-md-3">'+
-                                '<i class="fa fa-github fa-2x"></i>'+
-                            '</a>'+
-                            '</p>'+
-            '</div>'+
-            '</div><!--.row-->'+
+                    '<p class="text-center">'+
+                        '<a href="https://www.linkedin.com/in/zhanna-vysotskaya-47810315b/" class="linkedin mr-0 mr-md-2 mt-md-3 ">'+
+                            '<i class="fa fa-linkedin fa-2x"></i>'+
+                        '</a>'+
+                        '<a href="https://github.com/zvvysotskaya" class="github ml-0 ml-md-2  mt-md-3">'+
+                            '<i class="fa fa-github fa-2x"></i>'+
+                        '</a>'+
+                    '</p>'+
+                '</div>'+
+                '</div><!--.row-->'+
             '</div><!--.container-->'+
-
-
-
             '</article>'
         );
     });

@@ -54,6 +54,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
 }
 .navBox .bg-info {
     border-radius: 0;
+
 }
 /*pages content */
 /*Skills*/
@@ -76,18 +77,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
 }
 /*projects*/
 .project_info {
-    height: 26rem;
+    height: 28rem;
+}
+
+@media(max-width:992px) {
+    .project_info {
+        height: 30rem!important;
+    }
 }
 @media(max-width:768px) {
     .project_info {
-        height: 35rem;
+        height: 34rem!important;
     }
 }
-@media(max-width:992px) {
-    .project_info {
-        height: 27rem;
-    }
-}
+
 /*skills*/
 .cardHeight {
     height: 17rem;

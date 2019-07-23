@@ -88,7 +88,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
         height: 27rem;
     }
 }
-
+/*skills*/
+.cardHeight {
+    height: 17rem;
+}
+@media(max-width:768px){
+    .cardHeight {
+        height: 9rem;
+    }
+}
+@media(max-width:992px){
+    .cardHeight {
+        height: 14rem;
+    }
+}
 /*footer*/
 footer p {
     font-size: .8rem;

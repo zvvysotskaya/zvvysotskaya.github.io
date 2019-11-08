@@ -9,7 +9,7 @@ $(function(){
             '<article>'+
                 '<div class="container">'+
                     '<p class="text-center font-weight-bold">Programming Languages</p>'+
-                    '<p class="text-center mb-md-5 mb-1">PHP, Bootstrap, HTML5, CSS3, jQuery, JavaScript, SQL, C#, Java, and Python</p>'+
+                    '<p class="text-center mb-md-5 mb-1">JavaScript, Bootstrap, HTML5, CSS3, jQuery, SQL, C#, Java, PHP, and Python</p>'+
                     '<p class="text-center font-weight-bold">DBMS</p>'+
                     '<div class="dbs d-flex justify-content-center mb-md-5 mb-1">'+
                         '<ul class="list-inline">'+
@@ -39,10 +39,11 @@ $(function(){
                 '<div class="container">'+
                     '<p class="text-center font-weight-bold">IDE</p>'+
                     '<div class="ide d-flex justify-content-center">'+
-                        '<ul class="list-inline">'+
+                        '<ul class="list-inline">' +
+                            '<li class=" text-info">Visual Studio 16.1.6</li>' +
                             '<li class="text-info mb-md-5 mb-1">Atom</li>'+
                             '<li class=" text-info">Notepad++</li>'+
-                            '<li class=" text-info">Visual Studio 16.1.6</li>'+
+                            
                             '<li class=" text-info">NetBeans</li>'+
                             '<li class=" text-info">Eclips</li>'+
                         '</ul>'+
@@ -62,12 +63,12 @@ $(function(){
             '<div class="container">'+
                 '<p class="text-center font-weight-bold">App Development Tools</p>'+
                 '<div class="ide d-flex justify-content-center">'+
-                    '<ul class="list-inline">'+
-                        '<li class="text-info mb-md-5 mb-1">XAMPP</li>'+
-                        '<li class="text-info">Laravel Valet</li>'+
-                        '<li class="text-info">Node.js</li>'+
-                        '<li class="text-info">React</li>'+
-                    '</ul>'+
+                '<ul class="list-inline">' +
+                    '<li class="text-info">React</li>' +
+                    '<li class="text-info">Node.js</li>' +
+                     '<li class="text-info mb-md-5 mb-1">XAMPP</li>'+
+                     '<li class="text-info">Laravel Valet</li>'+
+                  '</ul>'+
                 '</div>'+
             '</div><!--.container-->'+
             '<div class="container">'+

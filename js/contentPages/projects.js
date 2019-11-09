@@ -8,53 +8,37 @@ $(function(){
                 '<p class="text-center font-weight-bold mb-md-5 mb-1">MY PORTFOLIO</p>'+
             '</div><!--.container-fluid-->'+
             '<article>'+
-                '<div class="container">'+
-                    '<div class="row mb-2 mb-md-5">'+
-                        '<div class="col-md-6 mb-md-5 mb-sm-0">'+
+                '<div class="container-fluid">'+
+                    '<div class="row mb-2 mb-md-5 justify-content-around">'+
+                        '<div class="col-lg-3 col-md-4  mb-md-5 mb-sm-0">'+
                             '<a href="https://flgoldcoinexchange.com/">'+
                                 '<img src="images/flgc.jpg" class="img-fluid" alt="image fl gold coin exchange">'+
                             '</a>'+
                             '<div class="bg-info p-4 text-light project_info">'+
-                                '<p>'+
-                                    'The website was started as an individual project in the course Advanced Web Development '+
-                                    'at SPC (St. Petersburg College). I have made all major steps of the website development lifecycle:'+
-                                '</p>'+
-                                '<ul>'+
-                                    '<li>Information Gathering</li>'+
-                                    '<li>Planning</li>'+
-                                    '<li>Design</li>'+
-                                    '<li>Content Writing</li>'+
-                                    '<li>Coding</li>'+
-                                    '<li>Testing and Launch</li>'+
-                                    '<li>Maintenance</li>'+
-                                '</ul>'+
-                                '<p>Programming languages: HTML5, CSS3, JavaScript, PHP, SQL.</p>'+
-                                '<p>DBMS: mySQL.</p>'+
+                                
+                                '<p>Frontend: React jsx, Bootstrap 4, HTML5, and CSS3</p>'+
+                                '<p>Backend: Node.js (Express), mySQL</p>'+
                             '</div>'+
                         '</div>'+
-                        '<div class="col-md-6 mb-md-5 mb-sm-0">'+
-                            '<a href="https://mybusylife.herokuapp.com/">'+
-                                '<img src="images/mybusylife.jpg" class="img-fluid" alt="my busy life">'+
+                        '<div class="col-lg-3 col-md-4 mb-md-5 mb-sm-0">'+
+                            '<a href="https://e-commerce-react2.herokuapp.com/">'+
+                                '<img src="images/e-commerce-react2.gif" class="img-fluid" alt="my busy life">'+
                             '</a>'+
                             '<div class="bg-info p-4 text-light project_info">'+
-                                '<p>'+
-                                    'My Busy Life application is an individual project that is in progress; new features will be added soon.'+
-                                    '  I have made all steps of the app development lifecycle:'+
-                                '</p>'+
-                                '<ul>'+
-                                    '<li>Information Gathering</li>'+
-                                    '<li>Planning</li>'+
-                                    '<li>Design</li>'+
-                                    '<li>Content Writing</li>'+
-                                    '<li>Coding</li>'+
-                                    '<li>Testing and Launch</li>'+
-                                    '<li>Maintenance</li>'+
-                                '</ul>'+
-                                '<p>Programming languages: Bootstrap, HTML5, CSS3, jQuery, PHP, SQL.</p>'+
-                                '<p>Framework: Laravel</p>'+
-                                '<p>DBMS: mySQL.</p>'+
+                                '<p>Frontend: React jsx, HTML5, and SASS</p>'+
+                                '<p>Backend: Node.js, Firebase Realtime Database</p>'+                                
                             '</div>'+
-                        '</div><!--.col-md-6-->'+
+                        '</div><!--.col-md-6-->' +
+                            '<div class="col-lg-3 col-md-4 mb-md-5 mb-sm-0">' +
+                            '<a href="https://mybusylife.herokuapp.com/">' +
+                            '<img src="images/mybusylife.jpg" class="img-fluid" alt="my busy life">' +
+                            '</a>' +
+                            '<div class="bg-info p-4 text-light project_info">' +
+                                '<p>Programming languages: Bootstrap, HTML5, CSS3, jQuery, PHP, SQL.</p>' +
+                                '<p>Framework: Laravel</p>' +
+                                '<p>DBMS: mySQL</p>' +
+                            '</div>' +
+                        '</div><!--.col-md-6-->' +
                     '</div><!--.row-->'+
                 '</div><!--.container-->'+
             '</article>'

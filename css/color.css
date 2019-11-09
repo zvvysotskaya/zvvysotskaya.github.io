@@ -77,17 +77,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
 }
 /*projects*/
 .project_info {
-    height: 28rem;
+    height: 12rem;
 }
 
 @media(max-width:992px) {
     .project_info {
-        height: 30rem!important;
+        height: 14rem!important;
     }
 }
 @media(max-width:768px) {
     .project_info {
-        height: 34rem!important;
+        height: 12rem!important;
     }
 }
 

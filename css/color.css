@@ -61,10 +61,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3174f9', end
 .dbs li {
     display: inline-block;
 }
-.dbs li:first-child::after {
-    content: '|';
-    margin: 15px;
+.dbs li:first-child::before {
+    display: none;
 }
+    .dbs li:before {
+        content: '|';
+        margin: 15px;
+    }
 .ide li {
     display: inline-block;
 }

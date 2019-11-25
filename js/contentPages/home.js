@@ -20,12 +20,11 @@ $(function(){
                     '</p>'+
                 '</div><!-- .col-md-6 -->'+
                 '<div class="col-md-6">'+
-                    '<h2 class="text-center text-info mb-4 font-weight-bold">Programming Interest</h2>'+
-                    '<ul>'+
-                        '<li>'+
-                            '<a href="https://en.wikipedia.org/wiki/Representational_state_transfer" class="text-dark">REST</a>'+
-                        '</li>'+
-                        '<li>Web Development</li>'+
+        '<h2 class="text-center text-info mb-4 font-weight-bold">Programming Interest</h2>' +
+        '<img src="images/react.gif" alt="react logo" class="d-block img-fluid img-thumbnail d-block mx-auto">' +
+                    '<ul>' +
+                        '<li>React App Development</li>' +
+                        '<li>RESTful API</li>'+
                     '</ul>'+
                 '</div><!-- .col-md-6 -->'+
             '</div><!-- .row -->'+

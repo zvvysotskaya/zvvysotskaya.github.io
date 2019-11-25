@@ -9,32 +9,26 @@ $(function(){
             '<article>'+
                 '<div class="container">'+
                     '<p class="text-center font-weight-bold">Programming Languages</p>'+
-                    '<p class="text-center mb-md-5 mb-1">JavaScript, Bootstrap, HTML5, CSS3, jQuery, SQL, C#, Java, PHP, and Python</p>'+
+                    '<p class="text-center mb-md-5 mb-1">JavaScript, JS(ES6), HTML5, CSS/CSS3, jQuery, SQL, C#, Java, PHP, and Python</p>'+
                     '<p class="text-center font-weight-bold">DBMS</p>'+
                     '<div class="dbs d-flex justify-content-center mb-md-5 mb-1">'+
                         '<ul class="list-inline">'+
                             '<li class="text-info">mySQL</li>'+
-                            '<li class="text-info"> SQLite</li>'+
+                            '<li class="text-info"> MongoDB</li>' +
+                            '<li class="text-info"> SQLite</li>' +
                         '</ul>'+
                     '</div>'+
-                    '<div class="row">'+
-                        '<div class="col-md-6 mb-md-5 mb-2">'+
-                            '<div class="card">'+
-                                '<div class="card body p-2">'+
-                                    '<img src="images/mysql.jpg" alt="phpmyadmin" class="d-block img-fluid img-thumbnail d-block mx-auto">'+
-                                    '<p class="py-3 text-center">I am using phpMyAdmin software tool to run mySql over the web.</p>'+
-                                '</div>'+
-                            '</div>'+
-                        '</div><!--.col-md-6-->'+
-                        '<div class="col-md-6 mb-2">'+
-                            '<div class="card">'+
-                                '<div class="card body p-2">'+
-                                    '<img src="images/sqlite.jpg" alt="the command prompt" class="d-block img-fluid img-thumbnail d-block mx-auto">'+
-                                    '<p class="py-3 text-center">To run the SQLite shell, I am using the command prompt.</p>'+
-                                '</div>'+
-                            '</div>'+
-                        '</div><!--.col-md-6-->'+
-                    '</div><!--.row-->'+
+            '<div class="row mb-md-5">' +
+                '<div class="col-12 col-md-4 mb-2">' +
+                    '<img src="images/mysql_.png" alt="mysql db" class="img-fluid img-thumbnail d-block mx-auto">' +
+                '</div>' +
+                '<div class="col-12 col-md-4 mb-2">' +
+                    '<img src="images/mongodb.png" alt="mongodb" class="img-fluid img-thumbnail d-block mx-auto">' +
+                '</div>' +
+                '<div class="col-12 col-md-4 mb-2">' +
+                '<img src="images/SQLite.gif" alt="SQLite" class="img-fluid img-thumbnail d-block mx-auto">' +
+                '</div>' +
+            '</div><!--.row-->' +
                 '</div><!--.container-->'+
                 '<div class="container">'+
                     '<p class="text-center font-weight-bold">IDE</p>'+
@@ -66,6 +60,7 @@ $(function(){
                 '<ul class="list-inline">' +
                     '<li class="text-info">React</li>' +
                     '<li class="text-info">Node.js</li>' +
+                    '<li class="text-info">Bootstrap</li>' +
                      '<li class="text-info mb-md-5 mb-1">XAMPP</li>'+
                      '<li class="text-info">Laravel Valet</li>'+
                   '</ul>'+

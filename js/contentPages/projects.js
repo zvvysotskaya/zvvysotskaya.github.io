@@ -9,10 +9,10 @@ $(function(){
             '</div><!--.container-fluid-->'+
             '<article>'+
                 '<div class="container-fluid">'+
-                    '<div class="row mb-2 mb-md-5 justify-content-around">'+
+                    '<div class="row mb-2 mb-md-5 justify-content-around ml-0 mr-0">'+
                         '<div class="col-lg-3 col-md-4  mb-md-5 mb-sm-0">'+
                             '<a href="https://flgoldcoinexchange.com/">'+
-                                '<img src="images/flgc.jpg" class="img-fluid" alt="image fl gold coin exchange">'+
+                                '<img src="images/flgce.gif" class="img-fluid" alt="image fl gold coin exchange">'+
                             '</a>'+
                             '<div class="bg-info p-4 text-light project_info">'+
                                 
@@ -20,7 +20,7 @@ $(function(){
                                 '<p>Backend: Node.js (Express), mySQL</p>'+
                             '</div>'+
                         '</div>'+
-                        '<div class="col-lg-3 col-md-4 mb-md-5 mb-sm-0">'+
+                        '<div class="col-lg-3 col-md-4 mb-md-5 mb-sm-0 ml-0 mr-0">'+
                             '<a href="https://e-commerce-react2.herokuapp.com/">'+
                                 '<img src="images/e-commerce-react2.gif" class="img-fluid" alt="my busy life">'+
                             '</a>'+
@@ -29,7 +29,7 @@ $(function(){
                                 '<p>Backend: Node.js, Firebase Realtime Database</p>'+                                
                             '</div>'+
                         '</div><!--.col-md-6-->' +
-                            '<div class="col-lg-3 col-md-4 mb-md-5 mb-sm-0">' +
+                            '<div class="col-lg-3 col-md-4 mb-md-5 mb-sm-0 ml-0 mr-0">' +
                             '<a href="https://mybusylife.herokuapp.com/">' +
                             '<img src="images/mybusylife.jpg" class="img-fluid" alt="my busy life">' +
                             '</a>' +

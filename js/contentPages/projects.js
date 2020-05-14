@@ -47,13 +47,12 @@ $(function(){
             '</div>' +
 
             '<div class="col-md-4 mb-md-5 mb-sm-0 ml-0 mr-0">' +
-            '<a href="https://mybusylife.herokuapp.com/">' +
-            '<img src="images/mybusylife.jpg" class="img-fluid" alt="my busy life">' +
+            '<a href="https://what-will.herokuapp.com/">' +
+            '<img src="images/what-will.png" class="img-fluid" alt="what-will">' +
             '</a>' +
             '<div class="bg-info p-4 text-light project_info">' +
-            '<p>Programming languages: Bootstrap, HTML5, CSS3, jQuery, PHP, SQL.</p>' +
-            '<p>Framework: Laravel</p>' +
-            '<p>DBMS: mySQL</p>' +
+            '<p>Frontend: React jsx, Bootstrap 4, HTML5, and CSS3</p>' +
+            '<p>Backend: Node.js (Express), mongodb</p>' +    
             '</div>' +
             '</div><!--.col-md-6-->' +
             '<div class="col-md-4 mb-md-5 mb-sm-0 ml-0 mr-0">' +

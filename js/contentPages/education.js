@@ -22,29 +22,29 @@ $(function(){
                         '<p class="font-weight-bold ">2018<br>Certificate</p>'+
                         '<p class="font-weight-bold ">Computer Programming Specialist</p>'+
             '<p class="pb-2">St. Petersburg College, St. Petersburg, FL, USA.</p>' +
-            '<p class="font-weight-bold ">2020<br>Certificate</p>' +
+            '<p class="font-weight-bold ">2020<br>Certificates</p><hr>' +
             '<p>The Hong Kong University of Science and Technology </p>' +
             '<p>Front-End Web UI Frameworks and Tools: Bootstrap 4, Coursera, Inc.</p>'+
-            '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/DT5MDJGS6KHB" class="text-info">See credential</a></p>' +
+            '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/DT5MDJGS6KHB" class="text-info">See credential</a></p><hr>' +
 
             '<p>The Hong Kong University of Science and Technology </p>' +
             '<p>Front-End Web Development with React, Coursera, Inc.</p>' +
-            '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/SMCY9SUDZGNF" class="text-info">See credential</a></p>' +
+            '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/SMCY9SUDZGNF" class="text-info">See credential</a></p><hr>' +
 
             '<p>The Hong Kong University of Science and Technology </p>' +
             '<p>Multiplatform Mobile App Development with React Native, Coursera Inc.</p>' +
-            '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/FHV8YJJL2FF6" class="text-info">See credential</a></p>' +
+            '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/FHV8YJJL2FF6" class="text-info">See credential</a></p><hr>' +
 
-                        '<p class="font-weight-bold ">2019<br>Certificate</p>'+
+                        '<p class="font-weight-bold ">2019<br>Certificates</p>'+
                         '<p>Microsoft - DEV208x Introduction to jQuery, edX, Inc</p>'+
-                        '<p class="pb-2"><a href="https://courses.edx.org/certificates/fa562e14408146e2b262eab50d850e4c" class="text-info">See credential</a></p>'+
-                        '<p class="font-weight-bold ">2019<br>Certificate</p>'+
+                        '<p class="pb-2"><a href="https://courses.edx.org/certificates/fa562e14408146e2b262eab50d850e4c" class="text-info">See credential</a></p><hr>'+
+                        
                         '<p>Microsoft - DEV280x Building Functional Prototypes using Node.js. edX, Inc.</p>'+
-                        '<p class="pb-2"><a href="https://courses.edx.org/certificates/47ee33b3e655402d93358c14c3db8703" class="text-info">See credential</a></p>'+
-                        '<p class="font-weight-bold ">2019<br>Certificate</p>'+
+                        '<p class="pb-2"><a href="https://courses.edx.org/certificates/47ee33b3e655402d93358c14c3db8703" class="text-info">See credential</a></p><hr>'+
+                        
                         '<p>Microsoft - DEV279 Building Interactive Prototypes Using JavaScript. edX, Inc.</p>'+
-                        '<p class="pb-2"><a href="https://courses.edx.org/certificates/967a7a025ca74155ba64e6383e9542f5" class="text-info">See credential</a></p>'+
-                        '<p class="font-weight-bold">2019 <br>Certificate</p>'+
+                        '<p class="pb-2"><a href="https://courses.edx.org/certificates/967a7a025ca74155ba64e6383e9542f5" class="text-info">See credential</a></p><hr>'+
+                        
                         '<p>Microsoft - DEV284x Designing Technical Solution, edX Inc.</p>'+
                         '<p class="pb-2"><a href="https://courses.edx.org/certificates/3b5d63d596774231a1c68283575bc7d1" class="text-info">See credential</a></p>'+
                         

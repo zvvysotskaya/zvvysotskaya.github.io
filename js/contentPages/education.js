@@ -14,14 +14,15 @@ $(function(){
                         '<h4 class="font-weight-bold mt-3 mt-md-5 p-3">EDUCATION</h4>'+
                         '<p class="font-weight-bold ">2016 - 2018</p>'+
                         '<p class="font-weight-bold">Associate in Science in Computer/Web Programming and Analysis</p>'+
-                        '<p>St. Petersburg College, St. Petersburg, FL, USA. Completed 63 credits, GPA 3.81</p>'+
+            '<p>St. Petersburg College, St. Petersburg, FL, USA.</p><hr>' +
+            '<p class="font-weight-bold ">Certificate Computer Programmer</p>' +
+            '<p class="pb-2">St. Petersburg College, St. Petersburg, FL, USA. 2018</p><hr>' +
+            '<p class="font-weight-bold ">Certificate Computer Programming Specialist</p>' +
+            '<p class="pb-2">St. Petersburg College, St. Petersburg, FL, USA. 2018</p>' +
+
                         '<h4 class="font-weight-bold mt-3 mt-md-5 p-3">CERTIFICATION AND PROFESSIONAL DEVELOPMENT</h4>'+
-                        '<p class="font-weight-bold ">2018<br>Certificate</p>'+
-                        '<p class="font-weight-bold ">Computer Programmer</p>'+
-                        '<p class="pb-2">St. Petersburg College, St. Petersburg, FL, USA.</p>'+
-                        '<p class="font-weight-bold ">2018<br>Certificate</p>'+
-                        '<p class="font-weight-bold ">Computer Programming Specialist</p>'+
-            '<p class="pb-2">St. Petersburg College, St. Petersburg, FL, USA.</p>' +
+                        
+
             '<p class="font-weight-bold ">2020<br>Certificates</p><hr>' +
             '<p>The Hong Kong University of Science and Technology </p>' +
             '<p>Front-End Web UI Frameworks and Tools: Bootstrap 4, Coursera, Inc.</p>'+

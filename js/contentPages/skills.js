@@ -59,6 +59,7 @@ $(function(){
                 '<div class="ide d-flex justify-content-center">'+
                 '<ul class="list-inline">' +
                     '<li class="text-info">React</li>' +
+                    '<li class="text-info">React Native</li>' +
                     '<li class="text-info">Node.js</li>' +
                     '<li class="text-info">Bootstrap</li>' +
                      '<li class="text-info mb-md-5 mb-1">XAMPP</li>'+

@@ -26,29 +26,29 @@ $(function(){
             '<p class="font-weight-bold ">2020<br>Certificates</p><hr>' +
 
             '<p>Getting Started in Google Analytics</p>' +
-            '<p> Coursera, Inc. </p>' +
+            '<p class="smallParagraph"> Coursera, Inc. </p>' +
             '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/G79DWH9X9NNA" class="text-info">See credential</a></p><hr>' +
 
 
             '<p>Full-Stack Web Development with React</p>' +
-            '<p>The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +
+            '<p class="smallParagraph">The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +
             '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/JM9WNNR3ANVR" class="text-info">See credential</a></p><hr>' +
 
             '<p>Front-End Web UI Frameworks and Tools: Bootstrap 4</p>' +
-            '<p>The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +            
+            '<p class="smallParagraph">The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +            
             '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/DT5MDJGS6KHB" class="text-info">See credential</a></p><hr>' +
 
             
             '<p>Front-End Web Development with React</p>' +
-            '<p>The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +
+            '<p class="smallParagraph">The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +
             '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/SMCY9SUDZGNF" class="text-info">See credential</a></p><hr>' +
                         
             '<p>Multiplatform Mobile App Development with React Native</p>' +
-            '<p>The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +
+            '<p class="smallParagraph">The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +
             '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/FHV8YJJL2FF6" class="text-info">See credential</a></p><hr>' +
 
             '<p>Server-side Development with NodeJS</p>' +
-            '<p>The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +
+            '<p class="smallParagraph">The Hong Kong University of Science and Technology, Coursera, Inc. </p>' +
             '<p class="pb-2"><a href="https://www.coursera.org/account/accomplishments/certificate/83R2HG7XCUX9" class="text-info">See credential</a></p><hr>' +
 
 
